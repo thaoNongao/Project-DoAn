@@ -27,6 +27,7 @@
 html,
 body {
     height: 100%;
+    margin: 0 auto;
 }
 body {
     line-height: 1.5;
@@ -64,7 +65,7 @@ html::-webkit-scrollbar {
   }
 
   html::-webkit-scrollbar-track {
-    background: #0984e3;
+    background: var(--blue);
   }
 
   html::-webkit-scrollbar-thumb {
@@ -136,17 +137,13 @@ header .header-2 {
 
 header .header-1 .logo {
     font-size: 3rem;
-    color: blue;
+    color: var(--blue);
     font-weight: bold;
 
 }
-header .header-1 .logo span p.logo-style:first-child{
-    font-size: 1rem;
-    color: yellow;
-    font-weight: bold;
 
-}
 header .header-1 .logo i{
+    margin-left: 5.5rem;
     color: var(--blue);
     font-size: 3rem;
 }

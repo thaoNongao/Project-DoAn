@@ -8,10 +8,14 @@ class GitController extends Controller
 {
     public function index()
     {
-        return view('web.app');
+        return view('web.index');
     }
     public function login()
     {
         return view('web.login_web');
+    }
+    public function card()
+    {
+        return view('web.shopping-card');
     }
 }

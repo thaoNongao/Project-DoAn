@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/login.css" type="text/css">
-    <title>Document</title>
+    <title>Login - Mobile Store - Công nghệ trong tay bạn</title>
     <link rel="stylesheet" href="js/owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="js/owlcarousel/owl.theme.default.min.css" />
     <script src="js/Jquery/Jquery.min.js"></script>
@@ -22,7 +22,7 @@
 
 <body>
     <div class="close-font">
-        <a href="http://127.0.0.1:8000/" class="close"><i class="fas fa-times fa-align-center fa-spin"></i></a>
+        <a href="home" class="close"><i class="fas fa-times fa-align-center fa-spin"></i></a>
     </div>
     <div class="container" id="container">
         <div class="form-container sign-up-container">

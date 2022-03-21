@@ -4,13 +4,6 @@
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-body,
-html {
-    min-width: 1024px;
-
-}
-
 a {
     text-decoration: none;
     color: #222;
@@ -22,10 +15,10 @@ a {
 }
 
 /* căn giữa section, và set độ rộng lớn nhất là 1200px */
-section {
+/* section {
     max-width: 1205px;
     margin: 0 auto;
-}
+} */
 
 hr {
     color: #ddd;
@@ -101,7 +94,7 @@ hr {
     bottom: 15px;
     right: 15px;
     z-index: 100;
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, 0.2);
     color: #fff;
     font-size: 18px;
     border-radius: 50%;
@@ -110,35 +103,15 @@ hr {
     line-height: 40px;
     text-align: center;
     cursor: pointer;
-    transition-duration: .2s;
+    transition-duration: 0.2s;
 }
 #goto-top-page:hover {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, 0.7);
     width: 50px;
     height: 50px;
     line-height: 50px;
 }
 
-/* ========= ScrollBar ============ */
-::-webkit-scrollbar {
-    width: .7em;
-    height: .7em;
-}
-
-::-webkit-scrollbar-track {
-    background: #eee;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #999;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #bbb;
-}
-
-/* ==================== css thêm , chưa sử dụng ========================= */
-/* tooltip https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_copy_clipboard2 */
 .tooltip {
     position: absolute;
     display: inline-block;
@@ -193,7 +166,7 @@ hr {
     width: 10px;
     height: 10px;
     opacity: 1;
-    background-color: rgba(238, 46, 36, .2);
+    background-color: rgba(238, 46, 36, 0.2);
     border-radius: 100%;
     -webkit-animation-duration: 1.25s;
     animation-duration: 1.25s;
@@ -211,12 +184,12 @@ hr {
     0% {
         opacity: 1;
         -webkit-transform: scale(1);
-        transform: scale(1)
+        transform: scale(1);
     }
 
     100% {
         -webkit-transform: scale(3);
         transform: scale(3);
-        opacity: 0
+        opacity: 0;
     }
 }
