@@ -53,10 +53,11 @@
     <!-- header section starts  -->
     <header>
         <div class="header-1">
-            <a href="#" class="logo">
+            <a href="home" class="logo">
                 <i class="fas fa-store"></i>
                 <span>
-                    <p class="logo-style">mobile Store<i class="fab fa-digital-ocean fa-spin"></i>
+                    <p class="logo-style">mobile Store<i class="fab fa-digital-ocean fa-spin"
+                            style="margin-left: 10px"></i>
                     </p>
             </a>
 
@@ -128,8 +129,64 @@
                 </tbody>
             </table>
         </div>
-        <input type="">
+
     </section>
+
+    <section class="newsletter">
+        <h1>newsletter</h1>
+        <p>get in touch for latest discounts and updates</p>
+        <form action="">
+            <input type="email" placeholder="enter your email" />
+            <input type="submit" class="btn" />
+        </form>
+    </section>
+    <!-- newsletter section ends -->
+    <!-- footer section starts  -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our locations</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i>nguyenducthao.cntt@gmail.com </a>
+                <img src="image/worldmap.png" class="map" alt="">
+            </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit"> created by <span>THAO</span> | all rights reserved! </div>
+    </section>
+
     <!-- jquery cdn link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- owl carousel js file cdn link  -->

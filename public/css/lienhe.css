@@ -1,64 +1,92 @@
-.body-lienhe{
-	margin: 30px 50px 50px 50px;
-	width: 90%;
-
+.body-lienhe {
+    margin: 30px 50px 50px 50px;
+    width: 90%;
 }
-.lienhe-header{
-	height: 40px;
-	font-weight: bold;
-	line-height: 40px;
-	padding-left: 10px;
-	background: pink;
+.lienhe-header {
+    height: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+    background: rgb(75, 99, 209);
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
 }
-.lienhe-info{
-	margin: 20px auto 0; 
-	display: inline-block;
-	width: 100%;
+.lienhe-info {
+    margin: 20px auto 0;
+    display: inline-block;
+    width: 100%;
 }
-.info-left{
-	float: left;
-	width: 48%;
+.info-left {
+    float: left;
+    width: 48%;
+    font-size: 1.5rem;
 }
 .info-right {
-	float: right;
-	width: 48%;	
+    float: right;
+    width: 48%;
 }
 iframe {
-	border: 1px solid gray;
+    border: 1px solid gray;
 }
 .guithongtin {
-	width: 45%;
-	float: left;
+    width: 45%;
+    float: left;
 }
-.thongtinnhom{
-	width: 50%;
-	float: right;
+.guithongtin form table tr td {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
 }
-table{	
-	margin-top: 10px;
-	height: 20px;
+.guithongtin form table tr td input {
+    margin-left: 1.5rem;
+    border-bottom: 1px solid gray;
 }
-table input{
-	padding: 5px;
+.thongtinnhom {
+    width: 50%;
+    float: right;
 }
-table button{
-	padding: 5px;
-	cursor: pointer;
-	background: #FFF;
-	border: 1px solid #0C9;
+table {
+    margin-top: 10px;
+    height: 20px;
 }
-table button:hover{
-	background: #0C9;
+table input {
+    padding: 5px;
 }
-.thongtinnhom table{
-	border-collapse: collapse;
-	margin-top: 20px;
+table button {
+    padding: 5px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid rgb(21, 34, 219);
+    margin-top: 3rem;
+    font-size: 1rem;
 }
-.thongtinnhom table td,th{
-	border: 1px solid #0C9;	
-	height: 30px;
-	padding: 3px;
-	text-align: center;
+button.btn-form-hotro {
+    font-size: 13px;
+    width: 16rem;
+}
+table button:hover {
+    background: #0c9;
+}
+.thongtinnhom table {
+    border-collapse: separate;
+    margin-top: 20px;
+}
+.thongtinnhom table td,
+th {
+    border: 1px solid #0c9;
+    height: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px;
 }
 /* những tr chẵn sẽ có màu khác */
-.thongtinnhom tr:nth-of-type(even) {background-color: #f2f2f2;}
+.thongtinnhom tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+td textarea {
+    margin: 4rem 0 0 15px;
+    border: 1px solid gray;
+    text-transform: normal;
+}

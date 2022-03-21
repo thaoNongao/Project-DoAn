@@ -50,7 +50,8 @@
                 <a href="home" class="logo">
                     <i class="fas fa-store"></i>
                     <span>
-                        <p class="logo-style">mobile Store<i class="fab fa-digital-ocean fa-spin"></i>
+                        <p class="logo-style">mobile Store<i class="fab fa-digital-ocean fa-spin"
+                                style="margin-left: 10px"></i>
                         </p>
                 </a>
                 <div class="form-container">

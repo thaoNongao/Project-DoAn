@@ -18,4 +18,8 @@ class GitController extends Controller
     {
         return view('web.shopping-card');
     }
+    public function hotro()
+    {
+        return view('web.hotrokh');
+    }
 }
