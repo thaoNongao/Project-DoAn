@@ -108,19 +108,26 @@
                     </tr>
                 </thead>
                 <tbody class="alert alert-primary" role="alert">
-                    <tr>
-                        <td scope="row"><input type="checkbox"></td>
-                        <td scope="row"><a href="">Mark</a></td>
-                        <td class="soluong" scope="row">
-                            <button><i class="fa fa-minus"></i></button>
-                            <input size="1" value="1">
-                            <button><i class="fa fa-plus"></i></button>
+                    <tr class="tr-item">
+                        <td scope="row"><input class="checkbox" type="checkbox"></td>
+                        <td scope="row" class="img-item-card">
+                            <img src="images/arr_img1.jpg" alt="">
+                            <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </a>
                         </td>
-                        <td><i class="fas fa-dollar-sign"></i>12</td>
-                        <td><a href=""><i class="fas fa-trash-alt"></i></a></td>
+                        <td class="soluong" scope="row">
+                            <div class="quantity-num">
+                                <button><i class="fa fa-minus"></i></button>
+                                <input size="1" value="1">
+                                <button><i class="fa fa-plus"></i></button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="price-item"><i class="fas fa-dollar-sign "></i>12</div>
+                        </td>
+                        <td><a href=""><i class="fas fa-trash-alt delete-item"></i></a></td>
                     </tr>
                     <tr class="total-price">
-                        <td colspan="3">TOTAL PRICE</td>
+                        <td class="total-price-title" colspan="3">TOTAL PRICE</td>
                         <td><i class="fas fa-dollar-sign"></i>12</td>
                         <td>
                             <button class="btn delete-all">Xóa hết</button>
