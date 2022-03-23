@@ -66,6 +66,7 @@ html::-webkit-scrollbar {
 
   html::-webkit-scrollbar-track {
     background: var(--blue);
+    overflow: scroll;
   }
 
   html::-webkit-scrollbar-thumb {

@@ -22,4 +22,8 @@ class GitController extends Controller
     {
         return view('web.hotrokh');
     }
+    public function news()
+    {
+        return view('web.news');
+    }
 }

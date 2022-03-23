@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/topnav.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lienhe.css">
+    <link rel="stylesheet" href="css/tintuc.css">
 
     <!-- js -->
     <script src="data/products.js"></script>
@@ -83,116 +83,53 @@
 
     </header>
     <section>
-        <div class="body-lienhe">
-            <div class="lienhe-header">TRUNG TÂM HỖ TRỢ KHÁCH HÀNG</div>
-            <div class="lienhe-info">
-                <div class="info-left">
-                    <p>
-                    <h2 style="color: gray"> ĐỒ ÁN CDIO 3 - GROUP 4 </h2><br />
-                    <b>Địa chỉ:</b> Đà Nẵng<br /><br />
-                    <b>Telephone:</b> 0123456789<br /><br />
-                    <b>Hotline:</b> 011111111 - CSKH: 0222 333 444<br /><br />
-                    <b>Website:</b> <a href="">Mobile Store - Công nghệ trong tay bạn</a> <br /><br />
-                    <b>E-mail:</b> DoAn@gmail.com<br /><br />
-                    <b>Mã số thuế:</b> 01 02 03 04 05<br /><br />
-                    <b>Tài khoản ngân hàng :</b><br /><br />
-                    <b>Số TK:</b> 00000000000 <br /><br />
-                    <b>Tại Ngân hàng:</b> Sacombank<br /><br /><br /><br />
-                    <b>Quý khách có thể gửi liên hệ tới chúng tôi bằng cách hoàn tất biểu mẫu dưới đây. Chúng tôi
-                        sẽ trả lời thư của quý khách, xin vui lòng khai báo đầy đủ. Hân hạnh phục vụ và chân thành
-                        cảm ơn sự quan tâm, đóng góp ý kiến đến Mobile Store.</b>
-                    </p>
-                </div>
-                <div class="info-right">
-                    <div style="width: 100%">
-                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
-                            marginwidth="0"
-                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%C4%90%E1%BA%A1i%20H%E1%BB%8Dc%20Duy%20T%C3%A2n,%20Nguy%E1%BB%85n%20V%C4%83n%20Linh,%20Thanh%20Kh%C3%AA,%20%C4%90%C3%A0%20N%E1%BA%B5ng+(%C4%90%E1%BA%A1i%20h%E1%BB%8Dc%20Duy%20T%C3%A2n)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                                href="https://www.gps.ie/marine-gps/">DUY TAN UNIVERSITY</a>
-                        </iframe>
-                    </div>
-                    <br />
-                </div>
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="http://doanhnghiepvn.vn/cong-nghe/danh-gia-smartphone-chip-s660-ram-8-gb-gia-6-99-trieu-tai-viet-nam/2018112603315443"
+                    target="_blank">
+                    <img src="images/tintuc/tintuc1.png">
+                    <h2>Đánh giá smartphone chip S660, RAM 8 GB, giá 6,99 triệu tại Việt Nam</h2>
+                </a>
+                <br />
+                <h5>Doanh ngiệp &emsp;3 giờ</h5>
             </div>
-            <div class="lienhe-info">
-
-                <div class="guithongtin">
-                    <p style="font-size: 22px; color: gray">Gửi thông tin liên lạc cho chúng tôi: </p>
-                    <hr />
-                    <form name="formlh" onsubmit="return nguoidung()">
-                        <table cellspacing="10px">
-                            <tr>
-                                <td>Họ và tên</td>
-                                <td><input type="text" name="ht" size="40" maxlength="40" autocomplete="off" required>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Điện thoại liên hệ</td>
-                                <td><input type="text" name="sdt" size="40" maxlength="11" minlength="10" required></td>
-                            </tr>
-                            <tr>
-                                <td>Địa chỉ Email</td>
-                                <td><input type="email" name="em" size="40" autocomplete="off" required></td>
-                            </tr>
-                            <tr>
-                                <td>Tiêu đề</td>
-                                <td><input type="text" name="tde" size="40" maxlength="100" required>
-                            </tr>
-                            <tr>
-                                <td>Nội dung</td>
-                                <td>
-                                    <textarea name="nd" rows="5" cols="44" maxlength="500" wrap="physical" placeholder="" required></textarea>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td><button class="btn btn-form-hotro" type="submit">Gửi thông tin</button></td>
-                            </tr>
-                        </table>
-                    </form>
-                </div>
-                <div class="thongtinnhom">
-                    <p style="font-size: 22px; color: gray">Thông tin thành viên nhóm: </p>
-                    <hr />
-                    <table style="text-transform: capitalize">
-                        <tr>
-                            <th>Họ tên</th>
-                            <th>MSSV</th>
-                            <th>Giới tính</th>
-                            <th>Lớp</th>
-                            <th>Công việc</th>
-                            <th>Tỉ lệ công việc</th>
-                        </tr>
-                        <script>
-                            var thongtin = [
-                                ["Nguyễn Đức Thạo", "25211214295", "Nam", "SE 397 D", "Code", "%"],
-                                ["Nguyễn Đức Thạo", "25211214295", "Nam", "SE 397 D", "Code", "%"],
-                                ["Nguyễn Đức Thạo", "25211214295", "Nam", "SE 397 D", "Code", "%"],
-                                ["Nguyễn Đức Thạo", "25211214295", "Nam", "SE 397 D", "Code", "%"],
-                                ["Nguyễn Đức Thạo", "25211214295", "Nam", "SE 397 D", "Code", "%"],
-                            ]
-                            for (var i = 0; i < thongtin.length; i++) {
-                                document.write(
-                                    `
-                                        <tr>
-                                            <td>` +
-                                    thongtin[i][0] + `</td>
-                                            <td>` +
-                                    thongtin[i][1] + `</td>
-                                            <td>` +
-                                    thongtin[i][2] + `</td>
-                                            <td>` +
-                                    thongtin[i][3] + `</td>
-                                            <td>` +
-                                    thongtin[i][4] + `</td>
-                                            <td>`
-                                )
-                            }
-                        </script>
-                    </table>
-                </div>
-
+            <div class="tintuc-info">
+                <a href="https://thanhnien.vn/cong-nghe/kham-pha-smartphone-man-hinh-gap-duoc-dau-tien-cua-samsung-1027111.html"
+                    target="_blank">
+                    <img src="images/tintuc/tintuc2.png">
+                    <h2>Khám phá smartphone màn hình gập được đầu tiên của Samsung</h2>
+                </a>
+                <br />
+                <h5>Thanh niên &emsp; 6 giờ</h5>
             </div>
+            <div class="tintuc-info">
+                <a href="https://vov.vn/cong-nghe/doanh-so-iphone-xs-va-iphone-xr-tham-hai-apple-san-xuat-lai-iphone-x-843717.vov"
+                    target="_blank">
+                    <img src="images/tintuc/tintuc3.png">
+                    <h2>Doanh số iPhone XS và iPhone XR thảm hại, Apple sản xuất lại iPhone X</h2>
+                </a>
+                <br />
+                <h5>VOV &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="http://vietq.vn/chiec-dien-thoai-thong-minh-nay-cua-lg-se-co-toi-16-camera-d151674.html"
+                    target="_blank">
+                    <img src="images/tintuc/tintuc4.png">
+                    <h2>Chiếc điện thoại thông minh này của LG sẽ có tới 16 Camera</h2>
+                </a>
+                <br />
+                <h5>VietQ &emsp; 13 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://news.zing.vn/nhung-tieu-chi-ban-khong-nen-bo-qua-khi-mua-smartphone-2018-post894509.html"
+                    target="_blank">
+                    <img src="images/tintuc/tintuc5.png" height="148px" width="224px;">
+                    <h2>Những tiêu chí bạn không nên bỏ qua khi mua smartphone 2018</h2>
+                </a>
+                <br />
+                <h5>Zing &emsp; 9 giờ</h5>
+            </div>
+
         </div>
     </section>
 

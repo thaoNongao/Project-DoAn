@@ -838,7 +838,12 @@
                     <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
                     <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
                     <a href="#"> <i class="fas fa-envelope"></i>nguyenducthao.cntt@gmail.com </a>
-                    <img src="image/worldmap.png" class="map" alt="">
+                    <div class="map">
+                        <div style="width: 300px"><iframe width="100%" height="300px" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Tr%C6%B0%E1%BB%9Dng%20%C4%90%E1%BA%A1i%20H%E1%BB%8Dc%20Duy%20T%C3%A2n,%20Nguy%E1%BB%85n%20V%C4%83n%20Linh,%20Thanh%20Kh%C3%AA,%20%C4%90%C3%A0%20N%E1%BA%B5ng,%20Vi%E1%BB%87t%20Nam+(My%20Business%20Name)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                    href="https://www.gps.ie/marine-gps/">marine gps</a></iframe></div>
+                    </div>
                 </div>
             </div>
             <div class="share">

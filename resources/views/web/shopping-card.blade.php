@@ -74,11 +74,11 @@
 
             <nav class="navbar">
                 <ul>
-                    <li><a class="active" href="#home">Home</a></li>
-                    <li><a href="#arrival">arrival</a></li>
-                    <li><a href="#featured">featured</a></li>
-                    <li><a href="#gallery">gallery</a></li>
-                    <li><a href="#deal">deal</a></li>
+                    <li><a class="active" href="home">Home</a></li>
+                    <li><a href="home#arrival">arrival</a></li>
+                    <li><a href="home#featured">featured</a></li>
+                    <li><a href="home#gallery">gallery</a></li>
+                    <li><a href="home#deal">deal</a></li>
                 </ul>
             </nav>
 
@@ -94,47 +94,99 @@
         <div class="alert alert-info" role="alert">
             Shopping Carts
         </div>
-        <div class="font-card">
-            <table class="table table-bordered">
-                <thead>
-                    <tr class="alert alert-primary" role="alert">
-                        <th scope="col">
-                            <input type="checkbox" class="checkbox-all">
-                        </th>
-                        <th scope="col">Item Name</th>
-                        <th scope="col">Quantity</th>
-                        <th scope="col">price</th>
-                        <th scope="col">delete</th>
-                    </tr>
-                </thead>
-                <tbody class="alert alert-primary" role="alert">
-                    <tr class="tr-item">
-                        <td scope="row"><input class="checkbox" type="checkbox"></td>
-                        <td scope="row" class="img-item-card">
-                            <img src="images/arr_img1.jpg" alt="">
-                            <a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </a>
-                        </td>
-                        <td class="soluong" scope="row">
-                            <div class="quantity-num">
-                                <button><i class="fa fa-minus"></i></button>
-                                <input size="1" value="1">
-                                <button><i class="fa fa-plus"></i></button>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="price-item"><i class="fas fa-dollar-sign "></i>12</div>
-                        </td>
-                        <td><a href=""><i class="fas fa-trash-alt delete-item"></i></a></td>
-                    </tr>
-                    <tr class="total-price">
-                        <td class="total-price-title" colspan="3">TOTAL PRICE</td>
-                        <td><i class="fas fa-dollar-sign"></i>12</td>
-                        <td>
-                            <button class="btn delete-all">Xóa hết</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="shopping-cards">
+            <div class="font-title">
+                <span>Remove</span>
+                <span>Image</span>
+                <span>Product</span>
+                <span>Price</span>
+                <span>Quantity</span>
+                <span>Total</span>
+            </div>
+            <div class="font-card-items">
+                <div class="cards-item">
+                    <a id="delete-item" href=""><i class="fas fa-trash-alt "></i></a>
+                    <div class="img-card">
+                        <img src="images/arr_img1.jpg" alt="">
+                    </div>
+                    <span id="name-items">Iphone</span>
+                    <span class="price-items-card">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span id="price-items-i">10</span>
+                    </span>
+                    <div class="quantity-num">
+                        <button><i class="fa fa-minus"></i></button>
+                        <input size="1" value="1">
+                        <button><i class="fa fa-plus"></i></button>
+                    </div>
+                    <span class="total-item">
+                        <i class="fas fa-dollar-sign "></i>
+                        <span id="total-item-card">10</span>
+                    </span>
+                </div>
+
+                <div class="cards-item">
+                    <a id="delete-item" href=""><i class="fas fa-trash-alt "></i></a>
+                    <div class="img-card">
+                        <img src="images/arr_img1.jpg" alt="">
+                    </div>
+                    <span id="name-items">Iphone</span>
+                    <span class="price-items-card">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span id="price-items-i">10</span>
+                    </span>
+                    <div class="quantity-num">
+                        <button><i class="fa fa-minus"></i></button>
+                        <input size="1" value="1">
+                        <button><i class="fa fa-plus"></i></button>
+                    </div>
+                    <span class="total-item">
+                        <i class="fas fa-dollar-sign "></i>
+                        <span id="total-item-card">10</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sum-total-cards">
+            <div class="coupon">
+                <span class="font-title-total coupon-title">COUPON</span>
+                <div class="font-coupon">
+                    <p>Enter your coupon code if you have one.
+                    </p>
+                    <input type="text" placeholder="Coupon Code">
+                    <button>APPLY COUPON</button>
+                </div>
+            </div>
+            <div class="total-all">
+                <span class="font-title-total card-totals">CARD TOTALS</span>
+                <div class="font-total-all">
+                    <div class="font-subtotal">
+                        <span>Subtotal</span>
+                        <div class="subtotal-price">
+                            <i class="fas fa-dollar-sign "></i>
+                            <span id="subtotal-item-card">10</span>
+                        </div>
+                    </div>
+
+                    <div class="font-shipping">
+                        <span>Shipping</span>
+                        <div class="shipping-price">
+                            <i class="fas fa-dollar-sign "></i>
+                            <span id="shipping-item-card">5</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="plus-total-all">
+                    <span>Total</span>
+                    <div class="total-price">
+                        <i class="fas fa-dollar-sign "></i>
+                        <span id="total-item-card-plus">25</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -181,7 +233,12 @@
                 <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
                 <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
                 <a href="#"> <i class="fas fa-envelope"></i>nguyenducthao.cntt@gmail.com </a>
-                <img src="image/worldmap.png" class="map" alt="">
+                <div class="map">
+                    <div style="width: 300px"><iframe width="100%" height="300px" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Tr%C6%B0%E1%BB%9Dng%20%C4%90%E1%BA%A1i%20H%E1%BB%8Dc%20Duy%20T%C3%A2n,%20Nguy%E1%BB%85n%20V%C4%83n%20Linh,%20Thanh%20Kh%C3%AA,%20%C4%90%C3%A0%20N%E1%BA%B5ng,%20Vi%E1%BB%87t%20Nam+(My%20Business%20Name)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.gps.ie/marine-gps/">marine gps</a></iframe></div>
+                </div>
             </div>
         </div>
         <div class="share">

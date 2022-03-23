@@ -562,15 +562,15 @@ function addTopNav() {
 	<div class="top-nav group">
         <section>
             <div class="social-top-nav">
-                <a class="fa fa-facebook"></a>
-                <a class="fa fa-twitter"></a>
-                <a class="fa fa-google"></a>
-                <a class="fa fa-youtube"></a>
+                <a class="fas fa-facebook"></a>
+                <a class="fas fa-twitter"></a>
+                <a class="fas fa-google"></a>
+                <a class="fas fa-youtube"></a>
             </div> <!-- End Social Topnav -->
 
             <ul class="top-nav-quicklink flexContain">
                 <li><a href="home"><i class="fa fa-home"></i> Trang chủ</a></li>
-                <li><a href="tintuc"><i class="fa fa-newspaper-o"></i> Tin tức</a></li>
+                <li><a href="news"><i class="fa fa-newspaper-o"></i> Tin tức</a></li>
                 <li><a href="tuyendung"><i class="fa fa-handshake-o"></i> Tuyển dụng</a></li>
                 <li><a href="gioithieu"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
                 <li><a href="trungtambaohanh"><i class="fa fa-wrench"></i> Bảo hành</a></li>
